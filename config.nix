@@ -3,8 +3,6 @@
         myPackages = pkgs.buildEnv {
             name = "lydien-tools";
             paths = [
-                zsh
-                zsh-autosuggestions
                 eza
                 neovim
                 python3
