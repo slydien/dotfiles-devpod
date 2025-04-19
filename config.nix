@@ -3,7 +3,9 @@
         myPackages = pkgs.buildEnv {
             name = "lydien-tools";
             paths = [
-                zsh-completion
+                zsh
+                zsh-autosuggestions
+                eza
                 neovim
                 python3
                 starship
