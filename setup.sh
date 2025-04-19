@@ -13,5 +13,4 @@ ln -sf "$PWD/.tmux.conf" "$HOME/.tmux.conf"
 ln -sf "$PWD/config.nix" "$XDG_CONFIG_HOME/nixpkgs/config.nix"
 
 # install nix packages from config.nix
-
 nix-env -iA nixpkgs.myPackages
