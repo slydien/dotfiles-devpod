@@ -18,6 +18,8 @@
                 k9s
                 argocd
                 fluxcd
+                nodejs_23
+                deno
             ];
         };
     };
