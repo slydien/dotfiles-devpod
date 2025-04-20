@@ -18,6 +18,7 @@
                 fluxcd
                 nodejs_23
                 deno
+                tmux
             ];
         };
     };
