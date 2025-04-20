@@ -32,6 +32,7 @@ require('lazy').setup {
   require 'plugins.neogit',
   require 'plugins.peek',
   require 'plugins.surround',
+  require 'plugins.venv-selector',
 }
 require('catppuccin').setup {
   flavour = 'mocha',
