@@ -3,6 +3,8 @@
 export XDG_CONFIG_HOME="$HOME/.config"
 mkdir -p "$XDG_CONFIG_HOME"
 
+ln -sf "$PWD/zsh-nix-shell" "$XDG_CONFIG_HOME/zsh-nix-shell"
+
 ln -sf "$PWD/nvim" "$XDG_CONFIG_HOME/nvim"
 
 ln -sf "$PWD/.bashrc" "$HOME/.bashrc"
