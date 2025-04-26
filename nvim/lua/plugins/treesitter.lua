@@ -17,6 +17,7 @@ return { -- Highlight, edit, and navigate code
       'dockerfile',
       'toml',
       'json',
+      'jsonc',
       'java',
       'groovy',
       'go',
@@ -31,6 +32,8 @@ return { -- Highlight, edit, and navigate code
       'tsx',
       'css',
       'html',
+      'gotmpl',
+      'helm',
     },
     -- Autoinstall languages that are not installed
     auto_install = true,
